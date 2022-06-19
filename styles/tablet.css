@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1024px) {
+  /*navbar  */
+  .nav-div {
+    padding: 0.5em 2em;
+  }
+
+  .brand-logo {
+    margin-right: 2em;
+    height: 3em;
+  }
+
+  .user-image {
+    margin-left: 5em;
+    height: 3em;
+  }
+
+  .refresh-btn {
+    width: 9em;
+    height: 2.5em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    border-radius: 10px;
+  }
+
+  .refresh-icon {
+    height: 1.4em;
+    width: 1.4em;
+  }
+
+  /* main */
+  main {
+    margin-top: 2em;
+  }
+
+  main .container-fluid {
+    padding-bottom: 1em;
+    max-width: 100%;
+  }
+
+  .main-info-div > div {
+    width: 100%;
+    margin-top: 0.7em;
+  }
+
+  .analytics {
+    margin-top: 1.5em;
+  }
+
+  .analytics > .container-fluid {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .analytics-div > div {
+    margin: 0.8rem;
+  }
+
+  .main-info > div {
+    height: 5em;
+    width: 10em;
+    margin: 0.5em;
+  }
+
+  .first-div > h6 {
+    font-size: 0.75em;
+  }
+
+  .first-div > img {
+    width: 1.5em;
+  }
+
+  .second-div > h4 {
+    font-size: 0.9em;
+  }
+
+  .second-div > p {
+    font-size: 0.8em;
+  }
+
+  .reach,
+  .progress,
+  .clients,
+  .posts,
+  .campaign,
+  .other {
+    height: 17rem;
+  }
+
+  .reach,
+  .posts {
+    width: 27rem;
+  }
+
+  .progress,
+  .campaign {
+    width: 18rem;
+  }
+
+  .clients,
+  .other {
+    width: 13rem;
+  }
+
+  .clients {
+    padding: 1em 1.5em;
+  }
+
+  .clients > div:first-child {
+    margin-top: 0;
+  }
+
+  .clients > div {
+    margin-top: 0.5em;
+  }
+
+  .inputs {
+    border-radius: 10px;
+    margin-top: 0.5em;
+    height: 2.2em;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .links:first-child {
+    margin-top: 0;
+  }
+
+  .links {
+    height: 6em;
+    width: 80%;
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  .campaign-container,
+  .progress-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 750px) {
+    .nav-div {
+      padding: 0.5em 1.2em;
+    }
+
+    .brand-logo {
+      margin-right: 1.6em;
+      height: 2.5em;
+    }
+
+    .brand-name {
+      width: 10em;
+    }
+
+    .user-image {
+      margin-left: 3em;
+      height: 2.5em;
+    }
+
+    .refresh-btn {
+      width: 10em;
+      height: 3em;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 1.3px;
+      border-radius: 10px;
+    }
+
+    .refresh-icon {
+      height: 1.4em;
+      width: 1.4em;
+    }
+  }
+
+  @media only screen and (max-width: 730px) {
+    .main-info > div {
+      margin: 0.4em;
+    }
+  }
+
+  @media only screen and (max-width: 547px) {
+    /* navbar */
+    .reach,
+    .progress,
+    .clients,
+    .posts,
+    .campaign,
+    .other {
+      height: 18rem;
+      width: 90%;
+    }
+
+    .chart-container {
+      width: 100%;
+    }
+
+    .campaign-container,
+    .progress-container {
+      margin: 0 auto;
+    }
+
+    .campaign-container {
+      width: 55%;
+    }
+
+    .progress-container {
+      width: 65%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    /* navbar */
+    .nav-div {
+      padding: 0.5em 1em;
+    }
+
+    .brand-logo {
+      margin-right: 1em;
+      height: 2em;
+    }
+
+    .brand-name {
+      width: 7em;
+    }
+
+    .user-image {
+      margin-left: 2em;
+      height: 2em;
+    }
+
+    .refresh-btn {
+      width: 12em;
+      height: 3.5em;
+      font-size: 0.6em;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      border-radius: 10px;
+    }
+
+    .refresh-icon {
+      height: 1.3em;
+      width: 1.3em;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .reach,
+    .progress,
+    .clients,
+    .posts,
+    .campaign,
+    .other {
+      height: 17rem;
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .reach,
+    .progress,
+    .clients,
+    .posts,
+    .campaign,
+    .other {
+      height: 16rem;
+    }
+
+    .campaign-container {
+      width: 60%;
+    }
+  }
+}

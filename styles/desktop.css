@@ -1,0 +1,197 @@
+@media only screen and (min-width: 1024px) {
+  /* navbar */
+  .nav-div {
+    padding: 0.5em 6em;
+  }
+
+  .brand-logo {
+    margin-right: 3em;
+    height: 3.5em;
+  }
+
+  .user-image {
+    margin-left: 8em;
+    height: 3.5em;
+  }
+
+  .refresh-btn {
+    width: 12em;
+    height: 2.8em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+  }
+
+  .refresh-icon {
+    height: 1.8em;
+    width: 1.8em;
+  }
+
+  /* main */
+  main {
+    margin-top: 1.8em;
+  }
+
+  main .container-fluid {
+    padding-bottom: 1em;
+    max-width: 100%;
+  }
+
+  .main-info-div > div {
+    width: 100%;
+    margin-top: 0.7em;
+  }
+
+  .analytics {
+    margin-top: 1.5em;
+  }
+
+  .analytics > .container-fluid {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .analytics-div > div {
+    margin: 0.8rem;
+  }
+
+  .main-info > div {
+    height: 6em;
+    width: 14em;
+  }
+
+  .reach,
+  .progress,
+  .clients,
+  .posts,
+  .campaign,
+  .other {
+    height: 21.5rem;
+  }
+
+  .reach,
+  .posts {
+    width: 35rem;
+  }
+
+  .progress,
+  .campaign {
+    width: 28rem;
+  }
+
+  .clients,
+  .other {
+    width: 15rem;
+  }
+
+  .clients {
+    padding: 1em 1.5em;
+  }
+
+  .clients > div:first-child {
+    margin-top: 0;
+  }
+
+  .clients > div {
+    margin-top: 0.5em;
+  }
+
+  .inputs {
+    border-radius: 10px;
+    margin-top: 0.8em;
+    height: 2.8em;
+    width: 100%;
+    font-size: 1.1em;
+  }
+
+  .links:first-child {
+    margin-top: 0;
+  }
+
+  .links {
+    height: 8em;
+    width: 100%;
+    margin-top: 2em;
+    font-size: 1.1em;
+  }
+
+  .campaign-container,
+  .progress-container {
+    width: 72%;
+    margin: 0 auto;
+  }
+
+  .analytics > .container-fluid > .row > div {
+    padding: 1.5em 2em;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .main-info {
+      padding: 0 7em;
+    }
+  }
+
+  @media only screen and (min-width: 1600px) {
+    .main-info {
+      padding: 0 10em;
+    }
+  }
+
+  @media only screen and (min-width: 1700px) {
+    .main-info {
+      padding: 0 15em;
+    }
+  }
+
+  @media only screen and (min-width: 1830px) {
+    .main-info {
+      padding: 0 20em;
+    }
+  }
+
+  @media only screen and (min-width: 1911px) {
+    .main-info {
+      padding: 0 22em;
+    }
+
+    .analytics .container-fluid {
+      max-width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 1220px) {
+    .main-info-div {
+      margin: 0.5em;
+    }
+
+    .reach,
+    .progress,
+    .clients,
+    .posts,
+    .campaign,
+    .other {
+      height: 20rem;
+    }
+
+    .reach,
+    .posts {
+      width: 33rem;
+    }
+
+    .progress,
+    .campaign {
+      width: 25rem;
+    }
+
+    .clients,
+    .other {
+      width: 13rem;
+    }
+
+    .inputs {
+      margin-top: 0.7em;
+      height: 2.5em;
+    }
+  }
+}
